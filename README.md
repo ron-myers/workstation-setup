@@ -37,3 +37,7 @@ source ./scripts/tools/golang.sh
 ```
 
 The list of available tool scripts is within the `scripts/tools` folder.
+
+## Other personal setup links
+
+* [Dock Display Link support](https://www.synaptics.com/products/displaylink-graphics/downloads/macos-connectivity-1.6?filetype=exe)
