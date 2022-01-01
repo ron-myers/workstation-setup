@@ -37,6 +37,8 @@ source ${MY_DIR}/scripts/common/docker.sh
 source ${MY_DIR}/scripts/common/node.sh
 source ${MY_DIR}/scripts/common/python.sh
 
+source ${MY_DIR}/scripts/common/dock.sh
+
 # For each command line argument, try executing the corresponding script in opt-in/
 for var in "$@"
 do
