@@ -35,3 +35,5 @@ The original project allows you to pass an optional list of toolsets to install.
 ```sh
 source ./scripts/tools/golang.sh
 ```
+
+The list of available tool scripts is within the `scripts/tools` folder.
