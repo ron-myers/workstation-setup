@@ -33,7 +33,7 @@ Open up `Terminal.app` and run the following command:
 ```sh
 mkdir -p ~/workspace &&
   cd ~/workspace &&
-  git clone https://github.com/pivotal/workstation-setup.git &&
+  git clone https://github.com/ron-myers/workstation-setup.git &&
   cd workstation-setup
 ```
 
