@@ -1,7 +1,10 @@
 echo
 echo "Installing common dotnet development tools and libraries"
 
-brew install --cask dotnet-sdk
+brew tap isen-ng/dotnet-sdk-versions
+brew install --cask dotnet-sdk6-0-100	
+brew install --cask dotnet-sdk5-0-400
+brew install --cask dotnet-sdk3-1-400	
 brew install --cask rider
 brew install --cask xamarin-ios
 
