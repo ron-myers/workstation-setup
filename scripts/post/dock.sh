@@ -22,5 +22,6 @@ dockutil --add /Applications/HEY.app
 dockutil --add /Applications/Slack.app
 dockutil --add /Applications/Spotify.app
 dockutil --add /Applications/Messenger.app
+dockutil --add /Applications/Telegram.app
 
 echo "Dock should be setup"
