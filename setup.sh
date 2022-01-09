@@ -39,3 +39,4 @@ source ${MY_DIR}/scripts/tools/unix.sh
 # wrap up
 source ${MY_DIR}/scripts/post/dock.sh
 source ${MY_DIR}/scripts/post/finish.sh
+source ${MY_DIR}/scripts/post/manual-steps.sh
