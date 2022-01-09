@@ -34,5 +34,6 @@ brew install --cask twitch
 brew install --cask spotify
 brew install --cask telegram
 brew install --cask discord
+brew install --cask microsoft-remote-desktop
 
 set -e
