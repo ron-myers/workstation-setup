@@ -9,3 +9,5 @@ brew install --cask rider
 brew install --cask xamarin-ios
 
 dotnet tool install Nuke.GlobalTool --global
+dotnet tool install nukeeper --global
+
