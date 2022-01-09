@@ -11,3 +11,4 @@ brew install --cask xamarin-ios
 dotnet tool install Nuke.GlobalTool --global
 dotnet tool install nukeeper --global
 dotnet tool install --global UnderTest.GlobalTool --version 0.1.0-rc013
+dotnet tool install --global dotnet-outdated-tool
