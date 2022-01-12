@@ -8,8 +8,7 @@ This forked from [pivotal version](https://github.com/pivotal/workstation-setup/
 
 ## Preparation
 
-- Run the latest version of macOS unless you have a specific reason not to
-- Install the latest version of [Xcode](https://developer.apple.com/xcode/)
+- Run the latest version of macOS unless you have a specific reason not to.
 
 ## Setup and execution
 Open up `Terminal.app` and run the following command:
