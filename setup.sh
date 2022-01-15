@@ -33,6 +33,7 @@ source ${MY_DIR}/scripts/tools/editors.sh
 source ${MY_DIR}/scripts/tools/general.sh
 source ${MY_DIR}/scripts/tools/node.sh
 source ${MY_DIR}/scripts/tools/unix.sh
+source ${MY_DIR}/scripts/tools/raycast.sh
 
 # wrap up
 source ${MY_DIR}/scripts/post/dock.sh
