@@ -31,10 +31,6 @@ echo "Configuring Rectangle"
 cp files/com.knollsoft.Rectangle.plist ~/Library/Preferences/com.knollsoft.Rectangle.plist
 open /Applications/Rectangle.app
 
-echo "Configuring FlyCut"
-open /Applications/Flycut.app
-
-
 # below settings selectively taken from https://gist.github.com/sohooo/3199249
 # based on https://raw.githubusercontent.com/mathiasbynens/dotfiles/main/.macos
 

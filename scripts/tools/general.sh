@@ -7,7 +7,6 @@ echo "Installing applications"
 
 # Utilities
 
-brew install --cask flycut
 brew install --cask rectangle
 
 # Terminals
