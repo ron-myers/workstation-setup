@@ -31,9 +31,7 @@ source ${MY_DIR}/scripts/tools/docker.sh
 source ${MY_DIR}/scripts/tools/dotnet.sh
 source ${MY_DIR}/scripts/tools/editors.sh
 source ${MY_DIR}/scripts/tools/general.sh
-source ${MY_DIR}/scripts/tools/golang.sh
 source ${MY_DIR}/scripts/tools/node.sh
-source ${MY_DIR}/scripts/tools/python.sh
 source ${MY_DIR}/scripts/tools/unix.sh
 
 # wrap up

@@ -32,7 +32,35 @@ mkdir -p ~/workspace &&
 The original project allows you to pass an optional list of toolsets to install.  This version does not allow for that.  Instead if you want to add additional toolsets, run those scripts atomically(eg. golang):
 
 ```sh
-source ./scripts/tools/golang.sh
+source ./scripts/tools/additional/c.sh
+```
+
+```sh
+source ./scripts/tools/additional/golang.sh
+```
+
+```sh
+source ./scripts/tools/additional/ios.sh
+```
+
+```sh
+source ./scripts/tools/additional/java.sh
+```
+
+```sh
+source ./scripts/tools/additional/kubernetes.sh
+```
+
+```sh
+source ./scripts/tools/additional/python.sh
+```
+
+```sh
+source ./scripts/tools/additional/ruby.sh
+```
+
+```sh
+source ./scripts/tools/additional/sping-boot.sh
 ```
 
 The list of available tool scripts is within the `scripts/tools` folder.

@@ -7,5 +7,15 @@ sudo ln -sfn "$(brew --prefix)/opt/openjdk/libexec/openjdk.jdk" /Library/Java/Ja
 echo "export PATH=\"$(brew --prefix)/opt/openjdk/bin:\$PATH\"" >> ~/.zshenv
 echo "export CPPFLAGS=\"-I$(brew --prefix)/opt/openjdk/include\"" >> ~/.zshenv
 
-# more java tools
-source ${MY_DIR}/scripts/opt-in/java-tools.sh
+#tools 
+brew tap jcgay/jcgay
+brew install maven-deluxe
+brew install gradle
+
+brew tap spring-io/tap
+brew install spring-boot
+
+#source ${MY_DIR}/scripts/common/download-jetbrains-ide-prefs.sh
+#pushd ~/workspace/jetbrains-ide-prefs/cli
+#./bin/ide_prefs install --ide=intellij
+#popd
