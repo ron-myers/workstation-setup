@@ -59,10 +59,6 @@ source ./scripts/tools/additional/python.sh
 source ./scripts/tools/additional/ruby.sh
 ```
 
-```sh
-source ./scripts/tools/additional/sping-boot.sh
-```
-
 The list of available tool scripts is within the `scripts/tools` folder.
 
 ## Other personal setup links
