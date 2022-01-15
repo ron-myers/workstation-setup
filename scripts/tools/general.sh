@@ -37,5 +37,6 @@ brew install --cask discord
 brew install --cask microsoft-remote-desktop
 brew install --cask pomodone  # pomodoro timer
 brew install --cask hiddenbar
+brew install --cask raycast
 
 set -e
