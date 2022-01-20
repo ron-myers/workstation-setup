@@ -4,6 +4,13 @@ echo "Installing most recent version of NodeJS"
 brew install node
 brew install nvm
 
+mkdir ~/.nvm
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zprofile
+echo '[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh" ' >> ~/.zprofile
+echo '[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion  ' >> ~/.zprofile
+
 echo
 echo "Installing global NodeJS Packages"
 
