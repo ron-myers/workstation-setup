@@ -10,11 +10,11 @@ echo "sudo scutil --set LocalHostName newname"
 echo "sudo scutil --set HostName newname"
 
 echo
-echo "For pair programming, git-duet is installed. https://github.com/git-duet/git-duet"
-echo "To configure your pairs, edit ~/.git-authors"
-
-echo
 echo "After checking the above output for any problems, start a new iTerm session to make use of all the installed tools."
 echo "Rebooting is only necessary for keyboard repeat settings to work."
 
 echo
+
+
+#load the profile to add anything configured during the script
+. ~/.zprofile
