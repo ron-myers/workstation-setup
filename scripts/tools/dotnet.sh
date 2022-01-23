@@ -12,3 +12,6 @@ dotnet tool install Nuke.GlobalTool --global
 dotnet tool install nukeeper --global
 dotnet tool install --global UnderTest.GlobalTool --version 0.1.0-rc013
 dotnet tool install --global dotnet-outdated-tool
+
+# add dotnet to path
+echo "export PATH=\"/usr/local/share/dotnet/x64:\$PATH\"" >> ~/.zshenv
