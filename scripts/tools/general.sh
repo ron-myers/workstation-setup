@@ -30,6 +30,7 @@ brew install --cask discord                     # chat
 # Work and Play
 brew install --cask asana                       # task management  
 brew install --cask bitwarden                   # password management
+brew install bitwarden-clis
 brew install --cask twitch                      # lols
 brew install --cask spotify                     # music
 brew install --cask microsoft-remote-desktop    # RDP
