@@ -35,6 +35,6 @@ brew install --cask spotify                     # music
 brew install --cask microsoft-remote-desktop    # RDP
 brew install --cask pomodone                    # pomodoro timer
 brew install --cask hiddenbar                   # menubar management
-brew install --cask fantastical                 # calendar
+brew install --cask cron                        # calendar
 
 set -e
