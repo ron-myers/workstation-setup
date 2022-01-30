@@ -32,6 +32,10 @@ mkdir -p ~/workspace &&
 The original project allows you to pass an optional list of toolsets to install.  This version does not allow for that.  Instead if you want to add additional toolsets, run those scripts atomically(eg. golang):
 
 ```sh
+source ./scripts/tools/additional/adobe.sh
+```
+
+```sh
 source ./scripts/tools/additional/azure.sh
 ```
 
