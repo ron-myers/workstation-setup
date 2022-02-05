@@ -44,6 +44,10 @@ source ./scripts/tools/additional/c.sh
 ```
 
 ```sh
+source ./scripts/tools/additional/flutter.sh
+```
+
+```sh
 source ./scripts/tools/additional/golang.sh
 ```
 
