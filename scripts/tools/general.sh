@@ -37,5 +37,6 @@ brew install --cask microsoft-remote-desktop    # RDP
 brew install --cask pomodone                    # pomodoro timer
 brew install --cask hiddenbar                   # menubar management
 brew install --cask cron                        # calendar
+brew install --cask miro                        # diagramming
 
 set -e
