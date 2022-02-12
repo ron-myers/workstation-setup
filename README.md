@@ -27,6 +27,22 @@ mkdir -p ~/workspace &&
 ./setup.sh
 ```
 
+## App Store
+
+To automate installation from the [app store](https://www.apple.com/app-store/), we use [mas](https://github.com/mas-cli/mas).
+
+First signin, you can skip this steps if you are logged in already.
+```sh
+mas signin --dialog your@email.com
+```
+
+to login.  Then:
+```sh
+./post/app-store.sh
+```
+
+to install the apps.
+
 ## Additional tools
 
 The original project allows you to pass an optional list of toolsets to install.  This version does not allow for that.  Instead if you want to add additional toolsets, run those scripts atomically(eg. golang):

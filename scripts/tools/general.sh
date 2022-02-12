@@ -39,4 +39,6 @@ brew install --cask hiddenbar                   # menubar management
 brew install --cask cron                        # calendar
 brew install --cask miro                        # diagramming
 
+brew install mas                                # app store cli
+
 set -e
