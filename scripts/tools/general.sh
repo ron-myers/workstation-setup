@@ -11,6 +11,7 @@ brew install --cask rectangle
 
 # Terminals
 brew install --cask iterm2
+brew install --cask fig                         # additional functionality in the terminal
 brew install htop
 
 # Browsers
