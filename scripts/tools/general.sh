@@ -20,6 +20,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask brave-browser
 brew install --cask microsoft-edge
+brew install --cask webcatalog
 
 # Communication
 brew install --cask slack                       # chat
