@@ -41,7 +41,8 @@ brew install --cask pomodone                    # pomodoro timer
 brew install --cask hiddenbar                   # menubar management
 brew install --cask cron                        # calendar
 brew install --cask miro                        # diagramming
-brew install grammarly-desktop                  # grammar
+brew install grammarly-desktop                  # grammarly 
+brew install --cask marta                       # finder replacement                  
 
 brew install mas                                # app store cli
 brew install mas                                # app store cli - see ./post/app-store.sh
