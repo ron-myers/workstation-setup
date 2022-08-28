@@ -16,6 +16,9 @@ MY_DIR="$(dirname "$0")"
 # force no analytics
 export HOMEBREW_NO_ANALYTICS=1
 
+# ensure rosetta is setup
+softwareupdate --install-rosetta
+
 # note: homebrew needs to be set up first
 source ${MY_DIR}/scripts/core/homebrew.sh
 
