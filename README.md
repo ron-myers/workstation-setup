@@ -88,6 +88,10 @@ source ./scripts/tools/additional/ruby.sh
 ```
 
 ```sh
+source ./scripts/tools/additional/rust.sh
+``` 
+
+```sh
 source ./scripts/tools/additional/twilio.sh
 ```
 
