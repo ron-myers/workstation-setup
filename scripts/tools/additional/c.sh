@@ -6,6 +6,8 @@ brew install cmake
 brew install cscope
 brew install --cask clion
 brew install ninja
+brew install gcc
+brew install llvm
 
 #source ${MY_DIR}/scripts/common/download-jetbrains-ide-prefs.sh
 #pushd ~/workspace/jetbrains-ide-prefs/cli

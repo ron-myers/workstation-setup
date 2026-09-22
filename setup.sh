@@ -37,6 +37,9 @@ source ${MY_DIR}/scripts/tools/general.sh
 source ${MY_DIR}/scripts/tools/node.sh
 source ${MY_DIR}/scripts/tools/unix.sh
 source ${MY_DIR}/scripts/tools/raycast.sh
+source ${MY_DIR}/scripts/tools/ai.sh
+source ${MY_DIR}/scripts/tools/fonts.sh
+source ${MY_DIR}/scripts/tools/vscode-extensions.sh
 
 # wrap up
 source ${MY_DIR}/scripts/post/dock.sh

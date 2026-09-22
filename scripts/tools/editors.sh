@@ -15,5 +15,8 @@ echo "Uncomment what you want."
 brew install --cask macdown
 brew install --cask sublime-text
 brew install --cask jetbrains-toolbox --force # guard against pre-installed jetbrains-toolbox
+brew install --cask zed
+brew install --cask cursor
+brew install emacs
 
 set -e

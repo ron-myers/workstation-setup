@@ -1,3 +1,9 @@
 .DS_Store
 .idea
 *.iml
+
+# Raycast exports contain extension API keys and personal snippets
+*.rayconfig
+
+# candid-review local state
+.candid/last-review.json
