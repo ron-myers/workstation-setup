@@ -12,3 +12,11 @@ pyenv global 3.10.6
 #pushd ~/workspace/jetbrains-ide-prefs/cli
 #./bin/ide_prefs install --ide=pycharm
 #popd
+
+# Python versions kept alongside pyenv
+brew install python@3.11
+brew install python@3.13
+
+# Isolated CLI applications
+brew install pipx
+pipx ensurepath

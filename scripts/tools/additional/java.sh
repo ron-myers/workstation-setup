@@ -19,3 +19,7 @@ brew install spring-boot
 #pushd ~/workspace/jetbrains-ide-prefs/cli
 #./bin/ide_prefs install --ide=intellij
 #popd
+
+# Additional JDKs and version switching
+brew install --cask zulu@17
+brew install jenv
