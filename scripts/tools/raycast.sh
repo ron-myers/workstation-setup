@@ -1,3 +1,7 @@
+# The cask fails when it is already installed and the import below reads from
+# stdin, so don't let either stop the run.
+set +e
+
 echo
 echo "Installing Raycast"
 
@@ -45,3 +49,5 @@ else
   echo "Set RAYCAST_CONFIG to its path, or import by hand:"
   echo "  Raycast -> Settings -> Advanced -> Import"
 fi
+
+set -e

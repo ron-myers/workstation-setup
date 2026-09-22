@@ -31,17 +31,16 @@ mkdir -p ~/workspace &&
 
 To automate installation from the [app store](https://www.apple.com/app-store/), we use [mas](https://github.com/mas-cli/mas).
 
-First signin, you can skip this steps if you are logged in already.
+`mas` can no longer sign you in - Apple removed command line sign in, and the
+`mas signin` subcommand went with it. Sign in with `App Store.app` first, then:
+
 ```sh
-mas signin --dialog your@email.com
+./scripts/post/app-store.sh
 ```
 
-to login.  Then:
-```sh
-./post/app-store.sh
-```
-
-to install the apps.
+to install the apps. `mas install` only works for apps the signed in Apple
+account has obtained before, so anything new has to be got from the App Store
+once by hand.
 
 ## What gets installed
 

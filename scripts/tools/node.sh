@@ -1,3 +1,7 @@
+# pnpm setup and the global package installs can each fail on their own,
+# so don't let one stop the run.
+set +e
+
 echo
 echo "Installing most recent version of NodeJS"
 
@@ -50,3 +54,5 @@ brew install --cask webstorm --force
 #pushd ~/workspace/jetbrains-ide-prefs/cli
 #./bin/ide_prefs install --ide=webstorm
 #popd
+
+set -e
